@@ -17,9 +17,9 @@ public class ContaTerminal {
             StringBuilder sb = new StringBuilder();
             
             sb.append("Olá, ").append(nome)
-                    .append(" obrigado por criar uma conta em nosso banco, sua agência é ").append(agencia)
+                    .append(", obrigado por criar uma conta em nosso banco, sua agência é ").append(agencia)
                     .append(", conta ").append(numero)
-                    .append(" e seu saldo ").append(saldo).append(" já está disponível");
+                    .append(" e seu saldo ").append(saldo).append(" já está disponível.");
             System.out.print(sb);
         }
     }
